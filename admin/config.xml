@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+		<param name="admin_email" type="text" default="" label="Admin Email" description="Who To Send New Registration Notification Emails To" />
+		<param name="time_format" type="list" default="1" label="Time Format" description="Time Display Format">
+			<option value="1">12 Hour</option>
+			<option value="2">24 Hour</option>
+		</param>
+	</params>
+</config>

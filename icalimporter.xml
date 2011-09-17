@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+	<name>iCal Importer</name>
+	<creationDate>September 15 2011</creationDate>
+	<author>Savvy Panda</author>
+	<authorEmail>info@savvypanda.com</authorEmail>
+	<authorUrl>www.savvypanda.com</authorUrl>
+	<copyright>Copyright (C) 2011 The Savvy Group</copyright>
+	<license>GNU GPL v2</license>
+	<version>1.0</version>
+	<description>Import iCal into DTRegister</description>
+	<administration>
+		<menu>iCal Importer</menu>
+		<files folder="admin">
+			<folder>models</folder>
+			<folder>views</folder>
+			<folder>controllers</folder>
+			<folder>lib</folder>
+			<folder>vendor</folder>
+			<filename>icalimporter.php</filename>
+			<filename>config.xml</filename>
+		</files>
+		<files>
+			<filename>license.txt</filename>
+		</files>
+	</administration>
+</install>
